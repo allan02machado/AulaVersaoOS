@@ -18,6 +18,9 @@ namespace AulaVersaoOS
             Console.WriteLine(FiggleFonts.Big.Render($"{nomeSO}"));
             Console.WriteLine(FiggleFonts.Big.Render($"{arquiteturaSO}"));
             Console.ResetColor();
+
+            Console.WriteLine("\n\nPressione uma tecla para finalizar...");
+            Console.ReadKey();
         }
     }
 }
